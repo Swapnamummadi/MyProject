@@ -1,0 +1,117 @@
+body{
+    background-image: url(./images/background2.jpeg);
+}
+/* header style start */
+.container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.align{
+    display:flex;
+    padding-top: 20px;
+    padding-left: 500px;
+    font-size: x-large;
+}
+#signup{
+    padding-top: 20px;
+    padding-left: 500px;
+}
+button{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: 2px solid blue;
+    color: white;
+    background-color: blue;
+}
+/* to remove decorations in a header */
+a{
+    text-decoration: none;
+}
+/* header style end */
+/* main start */
+/* details section start */
+#About{
+    padding-top: 10px;
+    color: orangered;
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    text-decoration: underline green;
+}
+.container2{
+    width:100%;
+    height: 300px;
+    display: flex;
+}
+/* styling for image2 */
+.image2{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.details{
+    padding-left: 550px;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    font-size: x-large;
+    line-break: 5px;
+}
+/* container2 button style */
+#button1{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid green;
+    color: black;
+}
+/* details section end */
+/* Project section start */
+#p{  /*p for projects*/
+    padding-top: 10px;
+    color: orangered;
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    text-decoration: underline gray;
+    
+}
+.Project{
+    width: 81.5%;
+    height: 300px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 180px;
+    
+}
+/* project section end */
+/* Footer section start */
+.Footer{
+    width:100%;
+    padding-top: 20px;
+    display: flex;
+    font-size: medium;
+}
+#contact{
+    padding-top: 5px;
+    color: orangered;
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    text-decoration:underline gray;
+}
+hr{
+    width: 80%;
+}
+.information{
+    padding-left: 300px;
+    padding-top: 5px;
+    line-height: 1.5;
+}
+/* style for copy right */
+#copy{
+    display: flex;
+    justify-content: center;
+}

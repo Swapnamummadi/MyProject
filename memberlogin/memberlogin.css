@@ -1,0 +1,45 @@
+body{
+    background-color: gold;
+}
+.container{
+    background-color: aliceblue;
+    border: 2px solid white;
+    width: 40%;
+    height: 400px;
+    display: grid;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+img{
+    position: absolute;
+    left: 540px;
+    top: 50px;
+    border-radius: 80px;
+    
+}
+.content{
+    margin-top: 20px;
+    text-align: center;
+}
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+input{
+    width: 80%;
+    height: 30px;
+    margin-top: 30px;
+    border: none;
+}
+ 
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 82%;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-bottom: none;
+    border-right: none;
+}
